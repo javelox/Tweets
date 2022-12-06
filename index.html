@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tweet Generator</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Welcome</h1>
+        <p id="text_name"></p>
+        <button id="text_letter"></button>
+      </nav>
+    </header>
+
+    <main id="main-container">
+      <div class="form">
+        <form>
+          <label
+            >Enter your name: <input type="text" name="nombre" id="name"
+          /></label>
+          <label>Comment: <textarea name="" id="comment"></textarea></label>
+          <p class="error" id="error">Warning</p>
+          <p class="counter" id="counter"></p>
+          <div class="btn">
+            <button class="send" id="send">Send</button>
+            <button class="uppercase" id="uppercase">Uppercase</button>
+            <button class="lowercase" id="lowercase">Lowercase</button>
+          </div>
+
+          <p id="result"></p>
+        </form>
+      </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
